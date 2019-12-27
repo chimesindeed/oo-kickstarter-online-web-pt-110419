@@ -10,6 +10,7 @@ class Backer
     
     @backed_projects << project
     #@backers  << self
+    backer.backed_projects << self
     
   end
 end
