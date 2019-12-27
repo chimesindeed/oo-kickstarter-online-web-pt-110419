@@ -4,7 +4,7 @@ class Project
   
   def initialize(title, backers = [])
     @title = title
-    @backers = backers
+    @backers = []
   end
   
   def backers
